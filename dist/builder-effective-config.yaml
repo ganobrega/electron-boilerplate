@@ -1,0 +1,13 @@
+directories:
+  output: dist
+  buildResources: assets
+files:
+  - filter:
+      - build/**/*
+extraMetadata:
+  main: build/electron.js
+appId: com.electron.foobar
+mac:
+  category: public.app-category.developer-tools
+extends: react-cra
+electronVersion: 3.1.8
